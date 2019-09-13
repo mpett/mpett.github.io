@@ -1,5 +1,17 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
+<head>
+	<style>
+		.row {
+		  display: flex;
+		}
+
+		.column {
+		  flex: 33.33%;
+		  padding: 5px;
+		}
+	</style>
+</head>
 <title>Martin Pettersson</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,23 +51,15 @@
       </p>
     </div>
 
-    <div class="w3-row-padding">
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Modern Exterior</div>
-          <img src="t-4.jpg" alt="House" style="width:300%">
-        </div>
-      </div>
-    </div>
+	<div class ="row">
+	  <div class = "column">
+		<img src="t-4.jpg" alt="Plot 1" style="width:95%">
+	  </div>
+	  <div class = "column">
+		<img src="m19.png" alt="Plot 2" style="width:95%">
+	  </div>
+	</div>
 
-    <div class="w3-row-padding">
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">City Landscape</div>
-          <img src="m19.png" alt="House" style="width:300%">
-        </div>
-      </div>
-    </div>
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
@@ -297,13 +301,17 @@
 
      Follow me on <a href="https://github.com/mpett">github</a>!
     </p>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
+
         <div class="w3-display-topleft w3-black w3-padding">Similarity Plots</div>
-        <img src="c1.png" alt="House" style="width:200%">
+	<div class ="row">
+	  <div class = "column">
+	        <img src="c1.png" alt="Plot 1" style="width:95%">
+      	  </div>
+	  <div class = "column">
+	        <img src="c2.png" alt="Plot 2" style="width:95%">
+      	  </div>
+	</div>
       </div>
-    </div>
-  </div>
 
   
   <!-- About Section -->
@@ -326,4 +334,5 @@
 
 </body>
 </html>
+
 
